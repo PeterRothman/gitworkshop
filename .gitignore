@@ -1,0 +1,5 @@
+packages/*
+.vs/config/applicationhost.config
+.vs/MvcApp/v14/.suo
+MvcApp/bin/*
+MvcApp/obj/*
