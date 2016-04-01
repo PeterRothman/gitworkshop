@@ -1,0 +1,5 @@
+.vs/*
+MvcApp/bin/*
+MvcApp/obj/*
+packages/*
+_ReSharper.Caches/*
