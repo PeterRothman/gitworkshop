@@ -71,6 +71,12 @@ namespace MvcApp.Controllers
             {
                 case SignInStatus.Success:
                     return RedirectToLocal(returnUrl);
+                case SignInStatus.LockedOut:
+                case SignInStatus.RequiresVerification:
+                case SignInStatus.Failure:
+                default:
+                    ModelState.AddModelError("", "Invalid login attempt.");
+                    return View(model);
             }
         }
 
