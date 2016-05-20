@@ -328,6 +328,7 @@ namespace MvcApp.Controllers
 
         //
         // GET: /Account/ExternalLoginFailure
+        [AllowAnonymous]
         public ActionResult ExternalLoginFailure()
         {
             return View();
