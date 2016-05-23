@@ -12,7 +12,8 @@ using MvcApp.Models;
 
 namespace MvcApp.Controllers
 {
-    [Authorize]
+    // Require authorization for methods in this class
+	[Authorize]
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;
