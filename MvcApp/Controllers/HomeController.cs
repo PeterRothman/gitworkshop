@@ -15,7 +15,7 @@ namespace MvcApp.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Superman is the coolest super hero!";
+            ViewBag.Message = "Batman is the coolest super hero!";
 
             return View();
         }
